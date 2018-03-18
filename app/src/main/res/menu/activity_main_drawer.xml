@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/know_us"
+            android:title="了解APP" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/user_manager"
+            android:title="账号管理" />
+
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/chat_manager"
+            android:title="设置" />
+
+        <!--android:icon="@drawable/chat_manager"-->
+
+        <!--android:icon="@drawable/ic_menu_slideshow"-->
+        <!--android:icon="@drawable/ic_menu_manage"-->
+
+    </group>
+    <group>
+        <item android:title="在线状态">
+            <menu>
+                <item
+                    android:id="@+id/nav_online"
+                android:icon="@drawable/online"
+                android:title="在线" />
+                <item
+                    android:id="@+id/nav_hide"
+                android:icon="@drawable/disline"
+                android:title="隐身" />
+            </menu>
+        </item>
+    </group>
+    <group>
+        <item
+            android:id="@+id/nav_exit"
+        android:icon="@drawable/exit"
+        android:title="退出当前账号" />
+
+    </group>
+</menu>
